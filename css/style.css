@@ -1,0 +1,522 @@
+/* google fonts linking */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --btn-color: #ff9b51;
+  --section-bg: #f5f5f5;
+  --card-color: #333333;
+  --paragraph-color: #7d7d7e;
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+}
+/* menu section css start */
+.top-menu {
+  border-bottom: 1px solid #fff;
+}
+.top-menu .nav-item {
+  padding: 0 15px;
+}
+.top-menu .nav-item:last-child {
+  padding-right: 0;
+}
+.top-menu .nav-link {
+  color: #6e6e6e;
+  font-size: 20px;
+}
+/* menu section css end */
+
+/* banner section css start */
+.banner {
+  padding: 100px 0;
+  background: url("../images/banner.png") center center no-repeat;
+  background-size: cover;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-content {
+  align-self: flex-end;
+}
+.banner .left-content h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+.banner .left-content h1 span {
+  color: var(--btn-color);
+  font-weight: normal;
+}
+.banner .left-content h2 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #fff;
+  width: 80%;
+}
+.banner .left-content .hr {
+  width: 70px;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+.banner .left-content p {
+  color: var(--paragraph-color);
+  font-size: 20px;
+  line-height: 25px;
+  width: 80%;
+}
+.banner .left-content .tp-btn {
+  border-radius: 0;
+  padding: 8px 25px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+/* banner left section css end */
+/* banner right section css start */
+.right-form {
+  display: flex;
+  justify-content: flex-end;
+}
+.right-form form {
+  width: 70%;
+  max-width: 500px;
+  padding: 15px 20px;
+  text-align: center;
+}
+.right-form .card {
+  border: none;
+  border-radius: 0;
+}
+.right-form .card .card-header h3 {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+}
+.right-form .card .card-header {
+  border-bottom: 0;
+}
+.right-form .card .card-header h3 span {
+  color: var(--btn-color);
+}
+.right-form .card .card-body {
+  border-bottom: none;
+}
+.right-form .card .card-body .form-control {
+  padding: 5px 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+.right-form .card .card-footer {
+  border-top: 0;
+  background-color: var(--btn-color);
+  border-radius: 0;
+}
+.right-form .card .card-footer .btn {
+  background-color: transparent;
+  border: none;
+  text-transform: capitalize;
+}
+/* banner section css end */
+/* social section css start */
+.social {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+.social-left h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.social-left p {
+  color: var(--paragraph-color);
+  font-size: 15px;
+  width: 90%;
+}
+.social-menu ul {
+  padding: 0;
+  margin: 0;
+}
+.social-menu ul li {
+  list-style-type: none;
+  text-align: right;
+  padding: 0 20px;
+  line-height: 85px;
+}
+.social-menu ul li a {
+  color: var(--paragraph-color);
+  font-size: 30px;
+  padding: 0 25px;
+  font-weight: bold;
+  margin: auto 0;
+}
+/* social section css end */
+/* tab section css start */
+
+.tab-section {
+  padding: 100px 0;
+  background-color: var(--section-bg);
+}
+.tab-section .tab {
+  border: none;
+  margin-right: 50px;
+  padding: 38px 20px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+  background-color: #333333;
+}
+
+.tab-section .nav-pills .nav-link.active {
+  background-color: var(--btn-color);
+}
+.tab-section .nav-pills .nav-link:first-child {
+  border-radius: 4px 4px 0 0;
+}
+.tab-section .nav-pills .nav-link:last-child {
+  border-radius: 0 0 4px 4px;
+}
+.tab-section .tab-content .tab-pane h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.tab-section .tab-content .tab-pane p {
+  font-size: 14px;
+  width: 83%;
+  color: var(--paragraph-color);
+}
+.tab-section .tab-content .tab-pane .btn {
+  background-color: var(--btn-color);
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+
+/* tab section css end */
+/* sub section css start */
+.sub-list {
+  padding: 80px 0;
+}
+.sub-list .left-image img {
+  width: 100%;
+  margin-left: -35px;
+}
+.sub-list .right-content .header {
+  width: 95%;
+}
+.sub-list .right-content .header h5 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+.sub-list .right-content .header .hr {
+  width: 16%;
+  margin: 15px 0;
+  height: 2px;
+  background-color: var(--btn-color);
+}
+.sub-list .right-content .header p {
+  font-size: 14px;
+  color: var(--paragraph-color);
+  margin-bottom: 35px;
+}
+.sub-list .right-bottom-content .image {
+  color: var(--btn-color);
+
+  border: 2px solid var(--btn-color);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  position: relative;
+}
+.sub-list .right-bottom-content .image i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+}
+.sub-list .right-bottom-content .text {
+  margin-left: 25px;
+}
+.sub-list .right-bottom-content .text h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+.sub-list .right-bottom-content .text p {
+  font-size: 14px;
+  color: var(--paragraph-color);
+  width: 80%;
+}
+/* sub section css end */
+/* standard-picture-section section css start  */
+.standard-picture-section {
+  padding: 80px 0;
+  background-color: var(--section-bg);
+}
+.standard-picture-section .left-content {
+  margin-top: -18%;
+}
+.standard-picture-section .left-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.standard-picture-section .left-content .hr {
+  width: 65px;
+  height: 2px;
+  margin: 25px 0;
+  background-color: var(--btn-color);
+}
+.standard-picture-section .left-content p {
+  font-size: 16px;
+  width: 96%;
+  color: var(--paragraph-color);
+}
+/* standard-picture-section section css end  */
+/* features section css start */
+.features {
+  padding: 80px 0;
+}
+.title h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #2b2b2b;
+}
+.title .hr {
+  width: 65px;
+  height: 2px;
+  margin: 18px auto;
+  background-color: var(--btn-color);
+  text-align: center;
+}
+.title p {
+  font-size: 14px;
+  color: var(--paragraph-color);
+}
+.features .feature-item {
+}
+.features .feature-item {
+}
+.features .feature-item .icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 80px;
+  text-align: center;
+  border: 2px solid var(--btn-color);
+  border-radius: 50%;
+  position: relative;
+  /* bottom: 90%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.features .feature-item .icon i {
+  color: var(--btn-color);
+  font-size: 25px;
+}
+.features .feature-item h2 {
+  color: #333333;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.features .feature-item p {
+  font-size: 16px;
+  color: var(--paragraph-color);
+  width: 90%;
+}
+/* features section css end */
+/* pricing section css start */
+.pricing {
+  padding: 80px 0;
+  background-color: var(--section-bg);
+}
+.pricing-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.p-card {
+  background-color: #fff;
+  flex-basis: 32%;
+}
+.pc-header {
+  padding: 15px 0;
+  background-color: #333;
+  border-radius: 0;
+  color: #fff;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ddd;
+}
+.pc-header h4 {
+  font-size: 18px;
+}
+.pc-body {
+  background-color: #333;
+  color: #fff;
+  border-bottom: 4px solid var(--btn-color);
+}
+.p-body {
+  border-bottom: 0;
+  padding: 15px 0;
+}
+.pc-body h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.pc-body h1 sub {
+  font-size: 25px;
+  font-weight: 600;
+}
+.pc-body p {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: var(--paragraph-color);
+}
+.p-card .popular {
+  background-color: var(--btn-color);
+  padding: 6px 0;
+  color: #fff;
+}
+
+.pc-footer h6 {
+  list-style-type: none;
+  padding: 8px 0;
+  border-bottom: 1px solid #9d9a9a20;
+  text-transform: uppercase;
+  color: #6e6e6e;
+  font-size: 14px;
+}
+.pc-footer h6:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+/* pricing section css end */
+/* customer review section css start */
+.customer-card .quote {
+  background-color: #f5f5f5;
+  padding: 15px;
+  width: 85%;
+  position: relative;
+}
+.customer-card .quote::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0 15px;
+  border-color: #f5f5f5 transparent transparent transparent;
+}
+.customer-card .quote p {
+  font-size: 16px;
+  color: var(--paragraph-color);
+}
+.customer-card .customer-photo {
+  margin-right: 10px;
+}
+.customer-photo img {
+  width: 70px;
+}
+
+.customer-card .customer-info h6 {
+  font-size: 18px;
+  line-height: 10px;
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.customer-card .customer-info span {
+  font-size: 14px;
+  line-height: 8px;
+  color: #d9d3d3;
+  margin-top: -20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+/* customer review section css end */
+/* design section css start */
+.design {
+  background: url(../images/u25_state0.png) no-repeat center center;
+  background-size: cover;
+}
+.design .title h2 {
+  color: #6e6e6e;
+}
+/* design section css end */
+/* contact section css start */
+.input-field {
+  padding: 0 30px;
+}
+.input-field input {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  padding: 15px 5px;
+}
+.contact-form .text-area {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  padding: 15px 5px;
+}
+.contact-form textarea {
+  border: 0;
+}
+.contact-btn {
+  background-color: var(--btn-color);
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+.contact-button:hover {
+  color: #000;
+  background-color: transparent !important;
+}
+/* contact section css end */
+/* footer section css start */
+.footer {
+  background-color: #000;
+  padding: 10px 0;
+}
+.footer .social-menu span {
+  padding: 0 15px;
+}
+.footer .social-menu span i {
+  font-style: 20px;
+  transition: all 0.5s;
+}
+.footer .social-menu span:hover {
+  color: #6e6e6e;
+  transition: all 0.5s;
+  transform: scale(1.4);
+}
+/* footer section css end */
