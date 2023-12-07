@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  overflow-x: hidden;
+}
 :root {
   --btn-color: #ff9b51;
   --section-bg: #f5f5f5;
@@ -317,10 +320,7 @@ a {
   font-size: 14px;
   color: var(--paragraph-color);
 }
-.features .feature-item {
-}
-.features .feature-item {
-}
+
 .features .feature-item .icon {
   width: 50px;
   height: 50px;
