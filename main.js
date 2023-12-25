@@ -18,32 +18,32 @@ gsap.from(".right-form", {
   duration: 2,
   stagger: 0.2,
 });
-gsap.from(".social-left", {
-  x: "-150%",
-  opacity: 0,
-  duration: 2,
-  stagger: 0.2,
-  scrollTrigger: {
-    trigger: ".social-left",
-    scroller: "body",
-    scrub: 2,
-    start: "top 250%",
-    // end: "bottom 100",
-    // markers: true,
-  },
-});
-gsap.from(".social-menu li", {
-  opacity: 0,
-  x: 300,
-  duration: 2,
-  stagger: 0.2,
-  scrollTrigger: {
-    trigger: ".social-left",
-    scroller: "body",
-    scrub: 2,
-    start: "top 250%",
-  },
-});
+// gsap.from(".social-left", {
+//   x: "-150%",
+//   opacity: 0,
+//   duration: 2,
+//   stagger: 0.2,
+//   scrollTrigger: {
+//     trigger: ".social-left",
+//     scroller: "body",
+//     scrub: 2,
+//     start: "top 250%",
+//     // end: "top 350%",
+//     // markers: true,
+//   },
+// });
+// gsap.from(".social-menu li", {
+//   opacity: 0,
+//   x: 300,
+//   duration: 2,
+//   stagger: 0.2,
+//   scrollTrigger: {
+//     trigger: ".social-left",
+//     scroller: "body",
+//     scrub: 2,
+//     start: "top 250%",
+//   },
+// });
 gsap.from(".sub-list .left-image>img", {
   x: -400,
   rotate: 180,

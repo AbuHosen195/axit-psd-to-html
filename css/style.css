@@ -48,14 +48,14 @@ a {
   background: url("../images/banner.png") center center no-repeat;
   background-size: cover;
 }
-.content-wrapper {
+/* .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.left-content {
+} */
+/* .left-content {
   align-self: flex-end;
-}
+} */
 .banner .left-content h1 {
   font-size: 80px;
   text-transform: uppercase;
@@ -90,6 +90,11 @@ a {
   font-weight: 600;
   margin-top: 20px;
 }
+.banner .left-content .tp-btn:hover {
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+  color: #fff;
+}
 /* banner left section css end */
 /* banner right section css start */
 .right-form {
@@ -97,7 +102,7 @@ a {
   justify-content: flex-end;
 }
 .right-form form {
-  width: 70%;
+  width: 85%;
   max-width: 500px;
   padding: 15px 20px;
   text-align: center;
@@ -153,9 +158,13 @@ a {
   font-size: 15px;
   width: 90%;
 }
+
 .social-menu ul {
   padding: 0;
   margin: 0;
+}
+.menu-items {
+  display: flex;
 }
 .social-menu ul li {
   list-style-type: none;
@@ -177,12 +186,16 @@ a {
 }
 /* social section css end */
 /* tab section css start */
-
-.tab-section {
+#mobileTab {
+  display: none;
+}
+.tab-section,
+#mobileTab {
   padding: 100px 0;
   background-color: var(--section-bg);
 }
-.tab-section .tab {
+.tab-section .tab,
+#mobileTab .tab {
   border: none;
   margin-right: 50px;
   padding: 38px 20px;
@@ -192,8 +205,16 @@ a {
   background-color: #333333;
 }
 
-.tab-section .nav-pills .nav-link.active {
+.tab-section .nav-pills .nav-link.active,
+#mobileTab .nav-tabs .nav-item .nav-link.active {
   background-color: var(--btn-color);
+}
+#mobileTab .nav-tabs .nav-item .nav-link {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 .tab-section .nav-pills .nav-link:first-child {
   border-radius: 4px 4px 0 0;
@@ -227,7 +248,7 @@ a {
 }
 .sub-list .left-image img {
   width: 100%;
-  margin-left: -35px;
+  /* margin-left: 35px; */
 }
 .sub-list .right-content .header {
   width: 95%;
@@ -286,7 +307,7 @@ a {
   background-color: var(--section-bg);
 }
 .standard-picture-section .left-content {
-  margin-top: -18%;
+  margin-top: 10%;
 }
 .standard-picture-section .left-content h5 {
   font-size: 20px;
@@ -335,7 +356,6 @@ a {
   border: 2px solid var(--btn-color);
   border-radius: 50%;
   position: relative;
-  /* bottom: 90%; */
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -360,11 +380,11 @@ a {
   padding: 80px 0;
   background-color: var(--section-bg);
 }
-.pricing-items {
+/* .pricing-items {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-}
+} */
 .p-card {
   background-color: #fff;
   flex-basis: 32%;
@@ -422,6 +442,10 @@ a {
   padding-bottom: 0;
 }
 /* pricing section css end */
+/* testimonial section start */
+.testimonials {
+}
+/* testimonial section end */
 /* customer review section css start */
 .customer-card .quote {
   background-color: #f5f5f5;
@@ -476,6 +500,8 @@ a {
 }
 /* design section css end */
 /* contact section css start */
+.contact-us {
+}
 .input-field {
   padding: 0 30px;
 }
@@ -515,8 +541,12 @@ a {
 .footer .social-menu span {
   padding: 0 15px;
 }
+.footer .social-menu span:last-child {
+  padding-right: 0;
+}
+
 .footer .social-menu span i {
-  font-style: 20px;
+  font-size: 20px;
   transition: all 0.5s;
 }
 .footer .social-menu span:hover {

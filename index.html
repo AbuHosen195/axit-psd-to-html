@@ -15,6 +15,8 @@
 
     <!-- customs css linking -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive css linking -->
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <!-- nav section start -->
@@ -60,9 +62,9 @@
     <!-- banner section start -->
     <section class="banner">
       <div class="container">
-        <div class="row">
-          <div class="content-wrapper">
-            <div class="col-lg-7">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-7 col-sm-12">
               <div class="left-content">
                 <h1>ax<span>it</span></h1>
                 <h2>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
@@ -74,7 +76,7 @@
                 <div class="btn btn-outline-light tp-btn">Download</div>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-sm-12">
               <div class="right-form">
                 <form action="">
                   <div class="card">
@@ -121,7 +123,7 @@
     <section class="social">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-sm-12">
             <div class="social-left">
               <h3>Social Media</h3>
               <p>
@@ -130,15 +132,25 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-7 col-sm-12">
             <div class="social-menu">
-              <ul>
+              <ul class="menu-items">
                 <li>
                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
                   <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
                   <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                </li>
+                <li>
                   <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </li>
+                <li>
                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
                   <a href="#"><i class="fa-solid fa-rss"></i></a>
                 </li>
               </ul>
@@ -152,7 +164,7 @@
     <section class="tab-section" id="animatedSection">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-8 col-sm-12">
             <div class="left-tabs">
               <div class="d-flex align-items-start">
                 <div
@@ -268,8 +280,134 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-12">
             <img class="" src="images/image_right_u255.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-section" id="mobileTab">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <img
+              class="img-fluid mb-3"
+              src="images/image_right_u255.png"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="left-tabs">
+              <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="home-tab-pane"
+                    aria-selected="true"
+                  >
+                    TAB1
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile-tab-pane"
+                    aria-selected="false"
+                  >
+                    TAB2
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#contact-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact-tab-pane"
+                    aria-selected="false"
+                  >
+                    TAB3
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                  tabindex="0"
+                >
+                  <h3>Tabs with soft transition effect</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                  <div class="btn btn-warning">Download</div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                  tabindex="0"
+                >
+                  <h3>Tabs with soft transition effect</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                  <div class="btn btn-warning">Download</div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="contact-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="contact-tab"
+                  tabindex="0"
+                >
+                  <h3>Tabs with soft transition effect</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                  <div class="btn btn-warning">Download</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -279,12 +417,16 @@
     <section class="sub-list">
       <div class="container">
         <div class="row justify-content-between align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-sm-12">
             <div class="left-image">
-              <img src="images/image_left_sub_list_u260.png" alt="" />
+              <img
+                class="img-fluid"
+                src="images/image_left_sub_list_u260.png"
+                alt=""
+              />
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-sm-12">
             <div class="right-content">
               <div class="header">
                 <h5>Sub List Section</h5>
@@ -325,9 +467,9 @@
     <!-- standard picture section start -->
     <section class="standard-picture-section">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="content-wrapper">
-            <div class="col-lg-6">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
               <div class="left-content">
                 <h5>Standard Picture Section</h5>
                 <div class="hr"></div>
@@ -344,9 +486,13 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="left-image">
-                <img src="images/image_right_standard_u262.png" alt="" />
+                <img
+                  class="img-fluid"
+                  src="images/image_right_standard_u262.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -358,7 +504,7 @@
     <section class="features">
       <div class="contaier">
         <div class="row">
-          <div class="col-lg">
+          <div class="col-lg-12">
             <div class="title text-center">
               <h2>whay this is awesome</h2>
               <div class="hr"></div>
@@ -366,37 +512,36 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="feature-item text-center">
-                <div class="icon"><i class="fa-regular fa-lightbulb"></i></div>
-                <h2>thoughtful design</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                  consectetur ipsa dolorem quidem eveniet.
-                </p>
-              </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="feature-item text-center">
+              <div class="icon"><i class="fa-regular fa-lightbulb"></i></div>
+              <h2>thoughtful design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                consectetur ipsa dolorem quidem eveniet.
+              </p>
             </div>
-            <div class="col-lg-4">
-              <div class="feature-item text-center">
-                <div class="icon"><i class="fa-solid fa-keyboard"></i></div>
-                <h2>well crafted</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                  consectetur ipsa dolorem quidem eveniet.
-                </p>
-              </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="feature-item text-center">
+              <div class="icon"><i class="fa-solid fa-keyboard"></i></div>
+              <h2>well crafted</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                consectetur ipsa dolorem quidem eveniet.
+              </p>
             </div>
-            <div class="col-lg-4">
-              <div class="feature-item text-center">
-                <div class="icon"><i class="fa-solid fa-bolt"></i></div>
-                <h2>easy to customize</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                  consectetur ipsa dolorem quidem eveniet.
-                </p>
-              </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="feature-item text-center">
+              <div class="icon"><i class="fa-solid fa-bolt"></i></div>
+              <h2>easy to customize</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                consectetur ipsa dolorem quidem eveniet.
+              </p>
             </div>
           </div>
         </div>
@@ -407,7 +552,7 @@
     <section class="features pricing">
       <div class="contaier">
         <div class="row">
-          <div class="col-lg">
+          <div class="col-lg-12 col-sm-12">
             <div class="title text-center">
               <h2>pricing options</h2>
               <div class="hr"></div>
@@ -416,64 +561,70 @@
           </div>
         </div>
         <div class="container mt-5">
-          <div class="row">
-            <div class="pricing-items">
-              <div class="p-card text-center">
-                <div class="pc-header">
-                  <h4>basic</h4>
-                </div>
-                <div class="pc-body">
-                  <h1><sub>$</sub>0</h1>
-                  <p>monthly payment</p>
-                </div>
+          <div class="pricing-items">
+            <div class="row align-items-end">
+              <div class="col-lg-4 col-sm-12 mb-5">
+                <div class="p-card text-center">
+                  <div class="pc-header">
+                    <h4>basic</h4>
+                  </div>
+                  <div class="pc-body">
+                    <h1><sub>$</sub>0</h1>
+                    <p>monthly payment</p>
+                  </div>
 
-                <div class="pc-footer">
-                  <h6>1 gb of space</h6>
-                  <h6>10 gb of bandwidth</h6>
-                  <h6>3 website</h6>
-                  <h6>basic customization</h6>
-                  <h6>wordpress intrigration</h6>
-                  <h6>email support</h6>
+                  <div class="pc-footer">
+                    <h6>1 gb of space</h6>
+                    <h6>10 gb of bandwidth</h6>
+                    <h6>3 website</h6>
+                    <h6>basic customization</h6>
+                    <h6>wordpress intrigration</h6>
+                    <h6>email support</h6>
+                  </div>
                 </div>
               </div>
 
-              <div class="p-card text-center">
-                <div class="pc-header">
-                  <h4>professional</h4>
-                </div>
-                <div class="pc-body p-body">
-                  <h1><sub>$</sub>19</h1>
-                  <p>monthly payment</p>
-                </div>
-                <div class="popular">
-                  <h6>our post populer</h6>
-                </div>
-                <div class="pc-footer">
-                  <h6>1 gb of space</h6>
-                  <h6>10 gb of bandwidth</h6>
-                  <h6>3 website</h6>
-                  <h6>basic customization</h6>
-                  <h6>wordpress intrigration</h6>
-                  <h6>email support</h6>
+              <div class="col-lg-4 col-sm-12 mb-5">
+                <div class="p-card text-center">
+                  <div class="pc-header">
+                    <h4>professional</h4>
+                  </div>
+                  <div class="pc-body p-body">
+                    <h1><sub>$</sub>19</h1>
+                    <p>monthly payment</p>
+                  </div>
+                  <div class="popular">
+                    <h6>our post populer</h6>
+                  </div>
+                  <div class="pc-footer">
+                    <h6>1 gb of space</h6>
+                    <h6>10 gb of bandwidth</h6>
+                    <h6>3 website</h6>
+                    <h6>basic customization</h6>
+                    <h6>wordpress intrigration</h6>
+                    <h6>email support</h6>
+                  </div>
                 </div>
               </div>
 
-              <div class="p-card text-center">
-                <div class="pc-header">
-                  <h4>enterprise</h4>
-                </div>
-                <div class="pc-body">
-                  <h1><sub>$</sub>70</h1>
-                  <p>monthly payment</p>
-                </div>
+              <div class="col-lg-4 col-sm-12 mb-5">
+                <div class="p-card text-center">
+                  <div class="pc-header">
+                    <h4>enterprise</h4>
+                  </div>
+                  <div class="pc-body">
+                    <h1><sub>$</sub>70</h1>
+                    <p>monthly payment</p>
+                  </div>
 
-                <div class="pc-footer">
-                  <h6>1 gb of space</h6>
-                  <h6>10 gb of bandwidth</h6>
-                  <h6>3 website</h6>
-                  <h6>basic customization</h6>
-                  <h6>wordpress intrigration</h6>
-                  <h6>email support</h6>
+                  <div class="pc-footer">
+                    <h6>1 gb of space</h6>
+                    <h6>10 gb of bandwidth</h6>
+                    <h6>3 website</h6>
+                    <h6>basic customization</h6>
+                    <h6>wordpress intrigration</h6>
+                    <h6>email support</h6>
+                  </div>
                 </div>
               </div>
             </div>
@@ -486,65 +637,75 @@
     <section class="testimonials py-5">
       <div class="container">
         <div class="row">
-          <div class="title text-center">
-            <h2>what our custoer are saying</h2>
-            <div class="hr"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="col-lg-12">
+            <div class="title text-center">
+              <h2>what our custoer are saying</h2>
+              <div class="hr"></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="customers d-flex justify-content-between">
-            <div class="customer-card">
-              <div class="quote">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Doloribus accusamus expedita repellat similique odio
-                  aspernatur ex, architecto eaque quo suscipit.
-                </p>
-              </div>
-              <div class="customer d-flex mt-4">
-                <div class="customer-photo">
-                  <img src="images/avatar_2_u231.png" alt="" />
+
+        <div class="customers">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="customer-card">
+                <div class="quote">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
                 </div>
-                <div class="customer-info">
-                  <h6>jeremy H.</h6>
-                  <span>manager</span>
-                </div>
-              </div>
-            </div>
-            <div class="customer-card">
-              <div class="quote">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Doloribus accusamus expedita repellat similique odio
-                  aspernatur ex, architecto eaque quo suscipit.
-                </p>
-              </div>
-              <div class="customer d-flex mt-4">
-                <div class="customer-photo">
-                  <img src="images/avatar_2_u231.png" alt="" />
-                </div>
-                <div class="customer-info">
-                  <h6>jeremy H.</h6>
-                  <span>manager</span>
+                <div class="customer d-flex mt-4">
+                  <div class="customer-photo">
+                    <img src="images/avatar_2_u231.png" alt="" />
+                  </div>
+                  <div class="customer-info">
+                    <h6>jeremy H.</h6>
+                    <span>manager</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="customer-card">
-              <div class="quote">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Doloribus accusamus expedita repellat similique odio
-                  aspernatur ex, architecto eaque quo suscipit.
-                </p>
-              </div>
-              <div class="customer d-flex mt-4">
-                <div class="customer-photo">
-                  <img src="images/avatar_2_u231.png" alt="" />
+
+            <div class="col-lg-4">
+              <div class="customer-card">
+                <div class="quote">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
                 </div>
-                <div class="customer-info ms-2">
-                  <h6>jeremy H.</h6>
-                  <span>manager</span>
+                <div class="customer d-flex mt-4">
+                  <div class="customer-photo">
+                    <img src="images/avatar_2_u231.png" alt="" />
+                  </div>
+                  <div class="customer-info">
+                    <h6>jeremy H.</h6>
+                    <span>manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="customer-card">
+                <div class="quote">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="customer d-flex mt-4">
+                  <div class="customer-photo">
+                    <img src="images/avatar_2_u231.png" alt="" />
+                  </div>
+                  <div class="customer-info ms-2">
+                    <h6>jeremy H.</h6>
+                    <span>manager</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -557,11 +718,13 @@
     <section class="design py-5">
       <div class="container">
         <div class="row">
-          <div class="title text-center">
-            <h2 class="">stylish exure design</h2>
-            <div class="hr"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div class="btn btn-outline-light tp-btn rounded-0">Download</div>
+          <div class="col-lg-12">
+            <div class="title text-center">
+              <h2 class="">stylish exure design</h2>
+              <div class="hr"></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn btn-outline-light tp-btn rounded-0">Download</div>
+            </div>
           </div>
         </div>
       </div>
@@ -571,27 +734,47 @@
     <section class="contact-us py-5">
       <div class="container">
         <div class="row">
-          <div class="title text-center">
-            <h2 class="">contact us</h2>
-            <div class="hr"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="col-lg-12">
+            <div class="title text-center">
+              <h2 class="">contact us</h2>
+              <div class="hr"></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
           </div>
         </div>
         <div class="row mt-5">
           <div class="contact-form">
-            <form action="" class="d-flex justify-content-between">
-              <div class="input-field w-50">
-                <input type="text" class="form-control" placeholder="name" />
-                <input type="email" class="form-control" placeholder="email" />
-                <input type="text" class="form-control" placeholder="subject" />
-              </div>
-              <div class="text-area w-50">
-                <textarea
-                  class="form-control"
-                  placeholder="message"
-                  id="floatingTextarea2"
-                  style="height: 100px"
-                ></textarea>
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="name"
+                    />
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="email"
+                    />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="subject"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                  <div class="text-area">
+                    <textarea
+                      class="form-control"
+                      placeholder="message"
+                      id="floatingTextarea2"
+                      style="height: 100px"
+                    ></textarea>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
@@ -608,7 +791,7 @@
     <section class="footer">
       <div class="conatiner">
         <div class="row">
-          <div class="col-lg">
+          <div class="col-lg-12">
             <div class="social-menu text-center text-white">
               <span><i class="fa fa-facebook fa"></i></span>
               <span><i class="fa fa-twitter"></i></span>
@@ -616,7 +799,7 @@
               <span><i class="fa fa-pinterest"></i></span>
               <span><i class="fa-brands fa-instagram"></i></span>
               <span><i class="fa fa-behance"></i></span>
-              <i class="fa-solid fa-rss"></i>
+              <span><i class="fa-solid fa-rss"></i></span>
             </div>
             <div class="copyright text-center">
               <span>© 2023 all right reserve bye Abu Hosen</span>
